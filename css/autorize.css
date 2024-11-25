@@ -1,0 +1,78 @@
+
+.sign-in-description {
+  align-self: center;
+  color: #00000086;
+  border: none;
+  background-color: transparent;
+}
+
+.sign-in-description a {
+  color: #34bcaa;
+}
+
+.sign-up {
+  margin-left: 10px;
+  color: #34bcaa;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border: none;
+  background-color: transparent;
+}
+
+.sign-up:hover {
+  color: #34bcaa7a;
+}
+
+.separator {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.form-input-container {
+  row-gap: 10px;
+}
+
+.input-label {
+  color: #000;
+  font-weight: 500;
+}
+
+input {
+  padding: 5px 5px;
+  border: 1px solid #ccc;
+  outline: 0;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 0.85rem;
+}
+
+input:focus {
+  border: 1px solid #000;
+}
+
+.submit-btn {
+  text-transform: uppercase;
+  padding: 8px 0px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #34bcaa;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.submit-btn:hover {
+  background-color: #34bcaac2;
+}
+
+.forgot {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .form {
+    min-width: 250px;
+  }
+}
